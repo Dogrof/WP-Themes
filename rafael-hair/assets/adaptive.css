@@ -1,0 +1,603 @@
+@media(max-width: 768px){
+  h1, h2{
+    font-size: 24px;
+    line-height: 28px;
+  }
+  p{
+    font-size: 12px;
+    line-height: 16px;
+  }
+  a.button{
+    height: 60px;
+  }
+  body, html {
+     overflow: unset !important;
+}
+  section{
+    padding: 50px 30px;
+    min-height: 430px;
+  }
+  .site-content{
+    overflow: hidden;
+  }
+  .main-container,
+  section.Start .center-block{
+    padding: 0 30px;
+  }
+  section.Who-we-are .main-container{
+    padding: 30px;
+  }
+  .single-hair .main-container{
+    padding: 0;
+  }
+  .slick-dots li button{
+    width: 7px;
+    height: 7px;
+  }
+  .site-header{
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .site-header .main-container{
+    position: relative;
+    padding: 0;
+  }
+  .site-header .header-col.logo {
+    max-width: 80px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  section.content-part .single-hair-container .image-block{
+    padding: 20px 0;
+  }
+  .site-header .header-col.mobile-menu{
+    display: flex;
+    align-items: center;
+  }
+  .our-team .first-back .team-block{
+    flex-direction: column;
+  }
+  .our-team .first-back .team-content{
+    text-align: center;
+  }
+  .our-team .first-back .team-item{
+    margin-bottom: 15px;
+  }
+  .our-team .first-back .team-item img{
+    max-height: 195px;
+  }
+  section.Contact-us .form-container .section-col.credentials a{
+    line-height: 30px;
+  }
+  .mobile-side-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    padding: 0;
+    height: 100%;
+    width: 80%;
+    z-index: 0;
+    transition: .5s;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .mobile-bars,
+  .mobile-cross{
+    visibility: hidden;
+    opacity: 0;
+    width: 0;
+    transition: .5s;
+  }
+  .mobile-bars.active,
+  .mobile-cross.active{
+    visibility: visible;
+    opacity: 1;
+    width: auto;
+    transition: .5s;
+  }
+  .mobile-side-menu{
+    display: block;
+  }
+  .mobile-side-menu.active{
+    padding: 40px;
+    padding-top: 100px;
+    visibility: visible;
+    opacity: 1;
+    transition: .5s;
+    z-index: 19;
+  }
+  .mobile-side-menu .menu-section,
+  .mobile-side-menu .menu-header-menu-container{
+    height: 90%;
+  }
+  .menu-mobile-menu-container{
+    height: 100%;
+  }
+  .mobile-side-menu .menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .mobile-side-menu .socials-block{
+    display: flex;
+    align-items: center;
+  }
+  .mobile-side-menu .menu li a{
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .mobile-side-menu .socials-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 36px;
+    border-radius: 100%;
+    background-color: white;
+    margin-right: 10px;
+  }
+  .mobile-side-menu .socials-item:first-child{
+    background-color: #C49636;
+  }
+  .footer-logo{
+    display: none;
+  }
+  .site-footer .footer-menu #mobile-menu{
+    display: flex;
+    flex-direction: column;
+  }
+  .site-footer .footer-menu #mobile-menu li{
+    margin: 7px 0;
+  }
+  .site-footer .footer-menu #mobile-menu li:first-child{
+    margin-top: 0;
+  }
+  .site-footer .footer-menu #mobile-menu li a{
+    text-transform: uppercase;
+  }
+  .inner-container{
+    padding: 30px 0;
+  }
+  section.content-part .single-hair-container:first-child .image-block:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: linear-gradient(0deg, #000000 15%, rgba(24, 24, 24, 0) 100%);
+  }
+  .header-col.logo .site-branding #lottie{
+    margin-top: 0;
+  }
+  section.Who-we-are .inner-container:before, section.Who-we-are .inner-container:after, .hair-replace .first-back-heading:before, .hair-replace .first-back-heading:after, .our-team .first-back .first-back-heading:before, .our-team .first-back .first-back-heading:after{
+    width: 20px;
+    height: 20px;
+  }
+  section.Our-salons .masonry-container,
+  section.Be-with-us .column-images-container,
+  section.Raphael-method .methods-container{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  section .section-heading.line:before{
+    width: 25px;
+  }
+  .post, .page{
+    margin: 0;
+  }
+  section .section-heading.line {
+    position: relative;
+    padding-left: 37px;
+    width: 100%;
+  }
+  .our-team .first-back .first-back-heading{
+    margin: 100px 0;
+  }
+  section .section-heading.line span,
+  .single-hair section .section-heading.line span,
+  .hair-replace section .section-heading.line span {
+    top: -20px;
+    font-size: 48px;
+    line-height: 32px;
+    opacity: .1;
+  }
+  section .section-heading.line span{
+    position: absolute;
+    width: 1000px;
+    left: 0;
+  }
+  section.Start{
+    display: flex;
+    align-items: center;
+  }
+  section.Start .section-heading p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  section.Start .scroll-down,
+  section.Who-we-are .post-content .more-details,
+  section.Call-now .image-column,
+  section.Contact-us .map-btn,
+  section .heading-block .section-arrows,
+  section.Be-with-us .column-images-container .center-text,
+  .site-header .header-col.menu,
+  .site-header .upper-row.flex,
+  .site-header .header-col.socials{
+    display: none;
+  }
+
+
+
+
+
+  section.Start .section-heading,
+  section.Start .section-heading p{
+    margin: 0;
+  }
+  section.Start .video-btn{
+    max-width: 40px;
+  }
+
+
+
+  section.Who-we-are .inner-container{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 10px;
+  }
+  section.Who-we-are .post-content .content-text{
+    max-height: 205px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    position: relative;
+  }
+  .item-text-content{
+    max-height: 205px;
+    overflow: hidden;
+    position: relative;
+    transition: .5s;
+  }
+
+  section.Who-we-are .post-content .content-text:after,
+  .item-text-content::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      background: linear-gradient(0deg, #000000 15%, rgba(24, 24, 24, 0) 100%);
+      transition: .5s;
+  }
+  section.Who-we-are .post-content .section-heading{
+    margin: 0;
+  }
+  section.Who-we-are .post-content{
+    position: relative;
+  }
+  .mobile-more-details{
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 0 auto;
+    justify-content: center;
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    display: flex;
+  }
+  section.content-part .single-hair-container,
+  .branches .branch-description{
+    max-width: 100%;
+  }
+  .hair-replace .scroll-down{
+    display: none !important;
+  }
+  .item-text-content.show{
+    max-height: 100%;
+    transition: .5s;
+  }
+  section.Who-we-are .post-content .content-text.show{
+    max-height: 100%;
+  }
+  .item-text-content.show::after{
+    height: 0 !important;
+    transition: .5s;
+  }
+  .branches .branches-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .branches .first-back{
+    padding: 50px 0 100px;
+  }
+  .branch-map-address a{
+    width: auto !important;
+  }
+  .branches .branches-images img{
+    max-width: 42%;
+    max-height: 150px;
+  }
+  .item-text-content.show .mobile-more-details{
+    position: unset;
+    font-size: 0;
+  }
+  .item-text-content .mobile-more-details span{
+    font-size: 0;
+  }
+  .item-text-content.show .mobile-more-details span{
+    font-size: 16px;
+  }
+  .branches .branch-block{
+    flex-direction: column;
+  }
+  section.Who-we-are .post-image{
+    display: flex;
+    justify-content: center;
+  }
+  section.Who-we-are .post-image img{
+    max-width: 80%;
+  }
+
+  section.Be-with-us .column-images-container img {
+      margin-right: 15px;
+      max-height: 400px;
+  }
+
+  section.Our-salons .masonry-container{
+    height: 100%;
+    width: 100%;
+        overflow-y: hidden;
+  }
+  section.Our-salons .masonry-container .masonry-item{
+    width: auto;
+    margin-right: 25px;
+    max-height: fit-content;
+  }
+  section.Our-salons .masonry-container .masonry-item img {
+    width: 320px;
+    height: 100%;
+    max-width: 320px;
+    max-height: 320px;
+  }
+section.Our-salons .masonry-container .masonry-item a {
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+section.Our-salons .masonry-container .masonry-item:hover .masonry-hidden{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+section.Our-salons .masonry-container .masonry-item .masonry-hidden h2{
+  text-transform: uppercase;
+}
+
+
+section.Hair-Solutions .content-columns-container{
+  flex-direction: column;
+}
+section.Hair-Solutions .content-column-item .m-block{
+  display: flex;
+  align-items: center;
+}
+section.Hair-Solutions .content-column-item p{
+  max-height: 64px;
+  margin-top: 20px;
+  overflow: hidden;
+  position: relative;
+}
+section.Hair-Solutions .content-column-item p:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background: linear-gradient(0deg, #000000 15%, rgba(24, 24, 24, 0) 100%);
+}
+section.Hair-Solutions .content-column-item img{
+  width: 50px;
+  margin-right: 15px;
+}
+section.Raphael-method .methods-container .line {
+    width: 875px;
+    max-width: unset;
+}
+section.Raphael-method .methods-item .method-content p {
+    width: 200px;
+    margin-right: 25px;
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+section.Raphael-method .methods-container .line{
+  height: 2px;
+}
+section.Raphael-method .methods-item .method-content{
+    height: 65px;
+}
+section.Be-with-us .center-text{
+  color: #c49636;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+section.Clients .testimonial-item .lower-block img{
+  max-width: 80px;
+}
+section.Clients .testimonial-item .lower-block .author-content h2{
+  margin: 0;
+}
+
+
+
+section.Call-now .content-column h1{
+  font-size: 36px;
+  line-height: 40px;
+}
+section.Call-now .content-column h2{
+  font-size: 18px;
+  line-height: 22px;
+}
+section.Call-now .content-column p{
+  font-size: 24px;
+  line-height: 28px;
+}
+
+
+
+section.Contact-us{
+  padding-top: 50px !important;
+}
+section.Contact-us .map-content-container,
+section.Contact-us .form-container .section-col.form{
+  max-width: 100%;
+}
+section.Contact-us .form-container{
+  flex-direction: column;
+}
+section.Contact-us .form-container .section-col.credentials p{
+  font-size: 18px;
+  line-height: 30px;
+}
+section.Contact-us .map-content-container{
+  padding: 0;
+  position: inherit;
+}
+section.Contact-us #wpgmza_map{
+  display: none !important;
+}
+.site-footer .main-container span{
+  font-size: 14px;
+  color: gray;
+  position: relative;
+}
+.site-footer .main-container span:before{
+  width: 25px;
+  background-color: gray;
+  height: 2px;
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.site-footer{
+  padding: 50px 30px 20px;
+  background-color: #181818;
+}
+.site-footer .main-container{
+  flex-direction: column;
+  padding: 0;
+}
+.site-footer .main-container .footer-cols{
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 25px;
+}
+.site-footer .main-container{
+  align-items: center;
+}
+section .section-heading.line{
+  margin-bottom: 10px;
+}
+.mobile-map-container{
+  display: flex;
+  height: 315px;
+  width: 100%;
+}
+section.content-part .single-hair-container,
+section.content-part .single-hair-container.left-img {
+    flex-direction: column-reverse;
+}
+section.content-part .single-hair-container .buttons-part{
+  flex-direction: column;
+}
+section.content-part .single-hair-container .buttons-part .single-hair-btn{
+  padding: 12px 14px;
+  font-size: 14px;
+  line-height: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+section.content-part .single-hair-container .text-block{
+  margin-top: -100px;
+  padding: 0 30px;
+}
+section.content-part .single-hair-container .text-block, section.content-part .single-hair-container .image-block {
+    flex-basis: 100%;
+    max-width: 100%;
+}
+section {
+    padding: 0;
+}
+section.hair-images img{
+  max-width: 47%;
+}
+.hair-images{
+  padding: 0;
+}
+.hair-replace section{
+  padding: 0;
+}
+.single-hair .Contact-us .main-container{
+  padding: 0 30px;
+}
+.hair-replace .slider-replace-container{
+  max-width: 100%;
+}
+.hair-replace .first-back{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section.hair-images .fp-tableCell{
+  display: flex !important;
+}
+.hair-replace .first-back .first-back-heading {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+section.content-part .single-hair-container .image-block{
+  z-index: -1;
+}
+section.content-part .single-hair-container .image-block img {
+    max-height: 380px;
+    width: 100%;
+    object-fit: cover;
+}
+section.content-part .single-hair-container .image-block{
+  position: relative;
+}
+
+
+
+
+
+
+
+
+}

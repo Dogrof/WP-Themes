@@ -1,0 +1,55 @@
+.dnone{
+  display: none;
+}
+.choose-flat-img-container .side-front,
+.choose-flat-img-container .side-back{
+  display: none;
+}
+.choose-flat-img-container .side-front.active,
+.choose-flat-img-container .side-back.active{
+  display: block;
+}
+.choose-flat-img-container .flat-item .is-closed,
+.choose-flat-img-container .flat-item.disabled .hover{
+  display: none;
+}
+.choose-flat-img-container .image{
+  pointer-events: none;
+}
+
+.choose-flat-img-container .flat-item:not(.disabled) .hover{
+  opacity: 0;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+}
+.choose-flat-img-container .flat-item:not(.disabled):hover .hover,
+.choose-flat-img-container .flat-item.active .hover{
+  opacity: 1;
+}
+.choose-flat-img-container .flat-item.disabled .is-closed{
+  display: block;
+}
+
+
+.product-template-default .logo.visible{
+  top: 3%;
+  max-width: 100px;
+}
+
+@media(max-width: 576px){
+  .product-template-default .logo.visible{
+    display: none;
+  }
+  .prod-desc-one,
+  .prod-desc-two{
+    padding: 20px 60px;
+  }
+  .prod-desc-two .text-col{
+    width: 100%;
+    padding: 0;
+  }
+  .prod-desc-two .imgs-slider,
+  .prod-desc-two+.slider-nav{
+    display: none;
+  }
+}

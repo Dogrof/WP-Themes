@@ -1,0 +1,56 @@
+body{
+    direction: ltr;
+    text-align: right;
+}
+.entry-content p {
+  direction: rtl;
+}
+
+/*.headerSection {
+  direction: ltr;
+}
+.contactus__inp {
+  padding-right: 0 !important;
+  padding-left: 24px;
+}
+.contactus__area {
+  padding-left: 0 !important;
+  padding-right: 24px;
+}
+
+.contactus__links_left-block{
+  text-align: right !important;
+}
+
+.contactus__links_right-block{
+  text-align: left !important;
+}
+.socialsRow{
+  direction: ltr;
+}
+.sideMenuWrapper .sideMenuContent .infoRow{
+  direction: ltr;
+}
+.changeLang__item .langName .LangHe{
+  display: inline !important;
+}
+.changeLang__item .langName .LangEn{
+  display: none !important;
+}*/
+/* .header__title {
+  text-align: right !important;
+} */
+/* .borderblock:nth-child(2){
+  border-left: 2px solid #171111 !important;
+  border-right: 0 !important;
+} */
+/*.blog .header .borderblock {
+  border-color: #fff !important;
+}
+*/
+
+@media screen and (max-width: 768px){
+  .site-footer {
+      direction: ltr !important;
+    }
+}

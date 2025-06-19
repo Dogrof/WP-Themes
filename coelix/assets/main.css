@@ -1,0 +1,25 @@
+.inner-container{
+  max-width: 1530px;
+  margin: 0 auto;
+}
+
+/* Footer */
+.footer .inner-container, .header .inner-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer{
+  background-color: #0B122C;
+}
+.footer-col.text,
+.footer-col .menu ul{
+  display: flex;
+  flex-direction: column;
+
+}
+/* Header */
+
+/* Homepage */
+
+/* Contact Us */
